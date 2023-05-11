@@ -10,7 +10,7 @@ include device/xiaomi/sakura-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/daisy
 
 # Kernel
-TARGET_KERNEL_CONFIG := daisy_defconfig
+TARGET_KERNEL_CONFIG := msm8953-perf_defconfig xiaomi/xiaomi.config xiaomi/daisy.config
 
 # Filesystem
 TARGET_NO_RECOVERY := true
